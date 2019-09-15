@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quantum limes</title>
+  </head>
+  <body>
+      <div class="centrovac" id="MyNav">
+         <header class="nav">
+            <nav class="nav"><ul>
+                <h1 class="logo ongray"><a class="logo ongray" href="index.html"><b>Quantum limes</b></a></h1>
+                <li class="aktivni"><a href="about.html"><b>About us</b></a></li>
+                <li class="aktivni"><a href="news.html"><b>What's new</b></a></li>
+                <li class="aktivni"><a href="ach.html"><b>Our achiements</b></a></li>
+                <li class="aktivni"><a href="members.html"><b>Members</b></a></li>
+                <li class="aktivni"><a href="contact.html"><b>Contact</b></a></li>
+                <li class="aktivni"><a href="photos.html"><b>Best moments</b></a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a></li>                      
+                </ul>
+                </nav>
+          </a>
+        </div>       
+        <script>
+        function myFunction() {
+          var x = document.getElementById("MyNav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+        }
+        </script>
+        </header>
+    <article>
+        <section class="prologue">
+        </div>
+<div class="prologue">
+    <div class="mySlides fade">
+      <img  style="margin: 0 auto; display:block" alt="1" src="SlideShow/image3.jpg" width="100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img style="margin: 0 auto; display:block" alt="2" src="SlideShow/image2.jpg" width="100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <img style="margin: 0 auto; display:block" alt="3" src="SlideShow/image1.jpg" width="100%">
+    </div>
+  </div>
+  
+  <h3>We are the team of highschool students from <a href="gytool.cz">Gymnázium, Olomouc - Hejčín</a>. <br>
+    We participate in robotic competition like First lego league and Robotic day.
+    <br>
+  </h3>
+  <h3 class="alert">
+    Website is in the phase of development, so not every part of it is in optimal state.
+  </h3>
+  <script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 5000);
+}
+</script>       
+      </section> 
+      
+    <section class="white">
+      <h1 style="margin-top: 0%; padding-top:10px;" class="people">Our team for First lego league:</h1>  
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Vít Hamřík">
+      <h2 class="people">Vít Hamřík: Leader of the team</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Jiří Kvapil">
+      <h2 class="people">Jiří Kvapil: Coach of the team</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Daniel Skýpala">
+      <h2 class="people">Daniel Skýpala: Software of the robot</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Patrik Herman">
+      <h2 class="people">Patrik Herman: Research project and website</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Ondřej Grohmann">
+      <h2 class="people">Ondřej Grohmann: Construction of the robot</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Jiří &quotKvapča&quot Kvapil">
+      <h2 class="people">Jiří &quotKvapča&quot Kvapil: Construction of the robot</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Ondřej Skácel">
+      <h2 class="people">Ondřej Skácel: Research project</h2>
+      <p class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+      <img style="margin: 0 auto; display:block"; src="pics/anonym.jpg" alt="Jakub Ondroušek">
+      <h2 class="people">Jakub Ondroušek: Software of the robot</h2>
+      <p style="margin-bottom: 0%; padding-bottom:10px" class="people">xyxyxyxyxyxyxyxxyxyxyxyxyxyxxyxyxyxyxyxyxy 
+        <br>xyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxyxy 
+        <br>xyxyxyxxxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxx
+      </p>
+    </section> 
+    <section class="green">
+      <h3>All members of Quantum limes meet each other in the Hobby club &quotLego robotics&quot at our school, <br>
+          led by one of the school's teachers and our FLL team coach <br> 
+          Mr. Jiří Kvapil. <br>
+          Currently, our club has 21 members including our FLL team. <br>
+      </h3>
+      </section>
+  </article>
+</div>
+    <footer>
+      <h2 class="footer"><a class="footer on" href="mailto:patrikherman1@gmail.com"> 2019 Created by Patrik Herman</a>
+      <a class="afooter" href="https://www.facebook.com/team.quantumlimes/" target="_blank"><img src="logos/fb-logo.png" alt="fb-logo" width="30px"></a>
+      <a class="afooter" href="https://www.instagram.com/quantumlimes/" target="_blank"><img src="logos/ig-logo-email.png" alt="fb-logo" width="30px"></a>
+    </h2> 
+    </footer>
+  </body>
+  </html>
